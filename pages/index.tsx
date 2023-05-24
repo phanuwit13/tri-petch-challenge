@@ -27,14 +27,14 @@ const HomePage = () => {
         <div className='bg-white max-[625px]:hidden'>
           <div className='banner-title flex justify-end max-w-[1600px] m-auto py-[58px] px-[30px] max-[768px]:py-[30px]'>
             <div className='w-[47%] max-[1100px]:w-[60%] max-[820px]:w-[65%] px-[4px]'>
-              <AthletesBox1 textColor="black" lineColor="primary" descriptionColor='black' />
+              <AthletesBox1 textColor="black" lineColor="#603EBE" descriptionColor='black' />
             </div>
           </div>
         </div>
         <div className='bg-[#F5F4F9]'>
           <div className='banner-title flex max-[625px]:flex-col justify-end max-w-[1600px] m-auto py-[52px] px-[30px] max-[768px]:py-[30px] max-[625px]:py-[72px]  max-[625px]:px-[19px]'>
             <div className='w-[47%] max-[625px]:hidden max-[1100px]:w-[60%] max-[820px]:w-[65%] px-[4px]'>
-              <AthletesBox2 textColor="black" lineColor="primary" descriptionColor='black'/>
+              <AthletesBox2 textColor="black" lineColor="#603EBE" descriptionColor='black' />
             </div>
             <div className='max-[625px]:block hidden'>
              <AthletesSlider />
@@ -64,14 +64,14 @@ const HomePage = () => {
         <div className='bg-white max-[625px]:hidden'>
           <div className='banner-title flex justify-start max-w-[1600px] m-auto py-[69px] max-[820px]:pb-[10px] max-[820px]:pt-[35px]'>
             <div className='w-[55%] max-[820px]:w-[66%]  px-[4px] pl-[140px] max-[1100px]:pl-[31px]'>
-              <PlayersBox1 textColor="black" lineColor="primary" descriptionColor='black' />
+              <PlayersBox1 textColor="black" lineColor="#603EBE" descriptionColor='black' />
             </div>
           </div>
         </div>
         <div className='bg-[#F5F4F9]'>
           <div className='banner-title flex max-[625px]:flex-col justify-start max-w-[1600px] m-auto pt-[52px] pb-[102px] max-[820px]:py-[51px] max-[820px]:pb-[65px]  max-[768px]:py-[30px] max-[625px]:py-[72px]  max-[625px]:px-[19px]'>
             <div className='w-[55%] max-[820px]:w-[66%] max-[625px]:hidden px-[4px] pl-[140px] max-[1100px]:pl-[31px]'>
-              <PlayersBox2 textColor="black" lineColor="primary" descriptionColor='black' />
+              <PlayersBox2 textColor="black" lineColor="#603EBE" descriptionColor='black' />
             </div>
             <div className='max-[625px]:block hidden'>
               <PlayerSlider />
@@ -81,7 +81,7 @@ const HomePage = () => {
         <div className='bg-[#090C35] max-[625px]:hidden'>
           <div className='banner-title flex justify-start max-w-[1600px] m-auto pt-[87px] pb-[66px] max-[820px]:py-[44px]'>
             <div className='w-[55%] max-[820px]:w-[66%] px-[4px] pl-[140px] max-[1100px]:pl-[31px]'>
-              <PlayersBox3 textColor="primary" lineColor="white" descriptionColor='white' />
+              <PlayersBox3 textColor="#603EBE" lineColor="white" descriptionColor='white' />
             </div>
           </div>
         </div>

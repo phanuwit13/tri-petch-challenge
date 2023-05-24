@@ -17,21 +17,21 @@ const AthletesSlider = () => {
       <div>
         <AthletesBox1
           textColor='black'
-          lineColor='primary'
+          lineColor='#603EBE'
           descriptionColor='black'
         />
       </div>
       <div>
         <AthletesBox2
           textColor='black'
-          lineColor='primary'
+          lineColor='#603EBE'
           descriptionColor='black'
         />
       </div>
       <div>
         <AthletesBox3
           textColor='black'
-          lineColor='primary'
+          lineColor='#603EBE'
           descriptionColor='black'
         />
       </div>
